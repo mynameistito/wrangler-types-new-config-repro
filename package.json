@@ -1,0 +1,15 @@
+{
+  "name": "wrangler-types-new-config-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "deploy:dry-run": "wrangler deploy --x-new-config --dry-run",
+    "build:new-config": "wrangler build --x-new-config",
+    "cf-types:new-config": "wrangler types --x-new-config",
+    "cf-types:legacy": "wrangler types"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3",
+    "wrangler": "4.103.0"
+  }
+}

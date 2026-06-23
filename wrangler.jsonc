@@ -1,0 +1,9 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "wrangler-types-new-config-repro",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-06-22",
+  "vars": {
+    "EXAMPLE_TEXT": "hello from wrangler.jsonc"
+  }
+}
