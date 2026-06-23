@@ -1,6 +1,6 @@
 # wrangler types new-config reproduction
 
-Minimal reproduction for `wrangler types --x-new-config` failing while other Wrangler commands accept the same experimental TypeScript config flag.
+Minimal reproduction for `wrangler types --x-new-config` failing while other Wrangler commands accept the same experimental TypeScript config flag. in relation to [cloudflare/workers #14396](https://github.com/cloudflare/workers-sdk/issues/14396)
 
 ## Reproduce
 
